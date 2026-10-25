@@ -1,0 +1,24 @@
+{
+  "name": "cadastro-academico-ts",
+  "version": "1.0.0",
+  "description": "Sistema de Cadastro Acadêmico Migrado para TypeScript em Modo Estrito - IFRN",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/app.js"
+  },
+  "keywords": [
+    "typescript",
+    "ifrn",
+    "strict-mode",
+    "type-safety"
+  ],
+  "author": "IFRN - Desenvolvimento Acadêmico",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
